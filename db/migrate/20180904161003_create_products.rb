@@ -3,7 +3,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
     create_table :products do |t|
       t.string :name
       t.string :quantity
-      t.integer :amount
+      t.integer :total_amount
       t.string :farm
 
       t.timestamps
