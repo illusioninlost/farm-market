@@ -9,8 +9,8 @@
     <%= javascript_include_tag 'application' %>
   </head>
 
-  <body ng-app="food-market">
-    
+  <body ng-app="food-market" ng-controller="ProductController">
+    Hello {{name}}
     <%= yield %>
   </body>
 </html>
