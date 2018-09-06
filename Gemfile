@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.6'
 
+gem 'bootstrap-sass', '~> 3.3.7'
+
 gem 'bower-rails'
 
 gem 'angular-rails-templates'
