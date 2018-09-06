@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.6'
 
+gem 'bower-rails'
+
+gem 'angular-rails-templates'
+
 gem 'responders'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
