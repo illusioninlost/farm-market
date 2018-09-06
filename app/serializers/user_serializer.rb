@@ -3,4 +3,5 @@ class UserSerializer < ActiveModel::Serializer
 
     has_many :products
     has_many :infos
+    
 end
