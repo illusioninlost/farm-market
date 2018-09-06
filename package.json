@@ -1,5 +1,7 @@
 {
   "name": "food-market",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bower": "^1.8.4"
+  }
 }
