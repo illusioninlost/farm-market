@@ -8,6 +8,6 @@
     ProductController.$inject = ['$scope']
 
     angular
-        .module('food-market')
+        .module('food-market', ['ui.router', 'templates', 'Devise'])
         .controller('ProductController', ProductController)
 }());
