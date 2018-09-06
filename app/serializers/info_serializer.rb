@@ -1,4 +1,4 @@
-class InfoSerializer < ActiveModel::ProductSerializer
+class InfoSerializer < ActiveModel::Serializer
     attributes :id, :content
 
     has_one :user

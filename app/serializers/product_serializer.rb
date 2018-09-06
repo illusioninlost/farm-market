@@ -1,4 +1,4 @@
-class ProductSerializer < ActiveModel::ProductSerializer
+class ProductSerializer < ActiveModel::Serializer
      attributes :id, :name, :quantity, :total_amount, :farm
 
      has_one :user
