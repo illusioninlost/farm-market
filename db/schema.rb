@@ -14,8 +14,10 @@ ActiveRecord::Schema.define(version: 2018_09_04_165657) do
 
   create_table "infos", force: :cascade do |t|
     t.string "content"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_infos_on_user_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -23,8 +25,10 @@ ActiveRecord::Schema.define(version: 2018_09_04_165657) do
     t.string "quantity"
     t.integer "total_amount"
     t.string "farm"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_products_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

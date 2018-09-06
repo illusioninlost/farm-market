@@ -5,6 +5,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.string :quantity
       t.integer :total_amount
       t.string :farm
+      t.belongs_to :user, index: true
 
       t.timestamps
     end
