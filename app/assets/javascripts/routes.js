@@ -13,10 +13,10 @@
                     templateUrl: 'home/home.html',
                     controller: 'HomeController as vm'
                 })
-                .state('products',{
-                    url: '/products',
-                    templateUrl: 'products/products.html',
-                    controller: 'TweetController as vm'
+                .state('home.userProfile',{
+                    url: '/userProfile',
+                    templateUrl: 'user/user-profile.html',
+                    controller: 'UserProfileController as vm'
                 })
 
                 $urlRouterProvider.otherwise('/')
